@@ -1,6 +1,6 @@
 # Wiser
 ### Design
-![Design](design.png)
+![Design](design.jpg)
 **Mandatory**
 - Typescript​;
 - React;
