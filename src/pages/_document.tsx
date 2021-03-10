@@ -39,16 +39,8 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <link
-            rel="preload"
-            href="/fonts/Montserrat/Montserrat-Regular.ttf"
-            as="font"
-            crossOrigin=""
-          />
-          <link
-            rel="preload"
-            href="/fonts/Montserrat/Montserrat-SemiBold.ttf"
-            as="font"
-            crossOrigin=""
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+            rel="stylesheet"
           />
         </Head>
         <body>

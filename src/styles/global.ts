@@ -1,10 +1,8 @@
 import { createGlobalStyle, css } from "styled-components";
 import { ResetCSS } from "./reset";
-import { Fonts } from "./fonts";
 
 export const GlobalStyled = createGlobalStyle`
   ${ResetCSS}
-  ${Fonts}
   ${({ theme }) => css`
     :root {
       --font: 16px "Montserrat", -apple-system, sans-serif;
