@@ -5,6 +5,7 @@ import LoginForm from "@components/LoginForm";
 import useUser from "@hooks/useUser";
 import { useEffect } from "react";
 import { toast } from "react-toastify";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   const { user, signIn } = useUser();
@@ -35,6 +36,10 @@ export default function Home() {
 
   return (
     <>
+      <NextSeo
+        title="Wiser Educação"
+        description="Wiser Educação - Escola de Idiomas"
+      />
       <Head>
         <title>Wiser Educação</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
