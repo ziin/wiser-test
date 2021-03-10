@@ -49,7 +49,6 @@ export default function Home() {
               alt="Mulher usando um notebook"
               layout="fill"
               objectFit="cover"
-              quality={100}
               objectPosition="top"
             />
           </S.ImageContainer>
